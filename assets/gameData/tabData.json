@@ -7,13 +7,13 @@
             { "id": 114, "name": "divine", "visible": false, "active": false, "initialUnlockedFeatureIDs": [711] } ] 
     },
     { "id": 120, "name": "forge", "visible": false, "active": false, "initialUnlockedFeatureIDs": [10001,10002,10003,10004,10005] },
-    { "id": 130, "name": "skills", "visible": false, "active": false },
-    { "id": 140, "name": "exploration", "visible": false, "active": false, 
+    { "id": 130, "name": "exploration", "visible": false, "active": false, 
 		"subTabs": [
-            { "id": 141, "name": "odyssey", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1010001] },
-            { "id": 142, "name": "tournament", "visible": false, "active": false },
-            { "id": 143, "name": "artifacts", "visible": false, "active": false } ] 
+      { "id": 131, "name": "odyssey", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1010001] },
+      { "id": 132, "name": "tournament", "visible": false, "active": false },
+      { "id": 133, "name": "artifacts", "visible": false, "active": false } ] 
     },
+    { "id": 140, "name": "skills", "visible": false, "active": false },
     { "id": 150, "name": "essence", "visible": false, "active": false },
     { "id": 160, "name": "achievements", "visible": false, "active": false },
     { "id": 180, "name": "radiance", "visible": false, "active": false },
