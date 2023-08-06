@@ -12,10 +12,7 @@
 		{ "id": "settingsTab", "variableName": "settingsTab", "parent": "tab-buttons", "tag": "button", "className": "tabButton" },
 
 	{ "id": "main-window", "variableName": "mainWindow", "parent": "root", "tag": "div", "className": "main-window" },
-
 		{ "id": "training", "variableName": "trainingTabContent", "parent": "main-window", "tag": "div", "className": "content-tab" },
-		
-			{ "id": "multSettings", "variableName": "multSettings", "parent": "training", "tag": "button" },
 			{ "id": "training-realm-buttons", "variableName": "trainingRealmButtons", "parent": "training", "tag": "div", "className": "realm-buttons-row" },
 				{ "id": "forceSubTab", "variableName": "force-tab-button", "parent": "training-realm-buttons", "tag": "button", "className": "realm-button" },
 				{ "id": "wisdomSubTab", "variableName": "wisdom-tab-button", "parent": "training-realm-buttons", "tag": "button", "className": "realm-button" },

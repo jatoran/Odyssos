@@ -1,21 +1,82 @@
 [
     { "id": 110, "name": "training", "visible": true, "active": true, 
 		"subTabs": [
-            { "id": 111, "name": "force", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1001] },
-            { "id": 112, "name": "wisdom", "visible": false, "active": false, "initialUnlockedFeatureIDs": [611] },
-            { "id": 113, "name": "energy", "visible": false, "active": false, "initialUnlockedFeatureIDs": [2001] },
-            { "id": 114, "name": "divine", "visible": false, "active": false, "initialUnlockedFeatureIDs": [711] } ] 
+			{ "id": 111, "name": "force", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1001],
+				"infoText": [
+					"Trainings - and upgrades specific to this realm's trainings.",
+					"Training realms can be evolved via the Forge for higher income",
+					"All Trainings have milestone tiers that give a multiplier bonus."]
+			},
+			{ "id": 112, "name": "wisdom", "visible": false, "active": false, "initialUnlockedFeatureIDs": [611],
+				"infoText": [
+					"Trainings - and upgrades specific to this realm's trainings.",
+					"Training realms can be evolved via the Forge for higher income",
+					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases."]
+			},
+			{ "id": 113, "name": "energy", "visible": false, "active": false, "initialUnlockedFeatureIDs": [2001],
+				"infoText": [
+					"Trainings - and upgrades specific to this realm's trainings.",
+					"Training realms can be evolved via the Forge for higher income",
+					"All Trainings have milestone tiers that give a multiplier bonus."]
+			},
+			{ "id": 114, "name": "divine", "visible": false, "active": false, "initialUnlockedFeatureIDs": [711],
+				"infoText": [
+					"Trainings - and upgrades specific to this realm's trainings.",
+					"Training realms can be evolved via the Forge for higher income",
+					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases."]
+			} 
+		] 
     },
-    { "id": 120, "name": "forge", "visible": false, "active": false, "initialUnlockedFeatureIDs": [10001,10002,10003,10004,10005] },
+
+    { "id": 120, "name": "forge", "visible": false, "active": false, "initialUnlockedFeatureIDs": [10001,10002,10003,10004,10005],
+		"infoText": ["Powerful upgrades, evolution unlocks, and automations."]
+	},
+
     { "id": 130, "name": "exploration", "visible": false, "active": false, 
 		"subTabs": [
-      { "id": 131, "name": "odyssey", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1010001] },
-      { "id": 132, "name": "tournament", "visible": false, "active": false },
-      { "id": 133, "name": "artifacts", "visible": false, "active": false } ] 
+			{ "id": 131, "name": "odyssey", "visible": true, "active": true, "initialUnlockedFeatureIDs": [1010001],
+				"infoText": [
+					"Worlds > Regions > Zones.",
+					"Zones have a one time training resource cost.",
+					"Zones reward shards that can be used to assemble/upgrade artifacts.",
+					"Zone completion time is reduced by higher power level",
+					"Region bosses award a skill point.",
+					"Legendary bosses have special requirements. Right now they just give an achieve, is planned for them to be part of metroidvania mechanics",
+					"Each new world unlocks a new tier of tournament fighters."] 
+			},
+			{ "id": 132, "name": "tournament", "visible": false, "active": false,
+				"infoText": [
+					"Each new world unlocks a new tier of tournament fighters.",
+					"Ascend the ranks and beat fighter tiers to upgrade your headband for greater bonuses.",
+					"Fighter completion time is reduced by higher power level"]
+			},
+			{ "id": 133, "name": "artifacts", "visible": false, "active": false,
+			"infoText": [
+				"Use shards gained from Odyssey to build and upgrade artifacts.",
+				"Artifacts evolve at certain level thresholds to unlock higher bonuses"]
+			}
+		] 
     },
-    { "id": 140, "name": "skills", "visible": false, "active": false },
-    { "id": 150, "name": "essence", "visible": false, "active": false },
-    { "id": 160, "name": "achievements", "visible": false, "active": false },
-    { "id": 180, "name": "radiance", "visible": false, "active": false },
-    { "id": 170, "name": "settings", "visible": true, "active": true }
+
+    { "id": 140, "name": "skills", "visible": false, "active": false,
+	"infoText": [
+		"Powerful upgrades that provide choice in how you play."]  },
+
+    { "id": 150, "name": "essence", "visible": false, "active": false,
+	"infoText": [
+		"Powerful rebirth upgrades"]
+	},
+
+    { "id": 160, "name": "achievements", "visible": false, "active": false,
+	"infoText": [
+		"Claim achievements for large bonuses, complete achievement sets for even greater bonuses.  Achievements each reward radiance currency."]
+	},
+
+    { "id": 180, "name": "radiance", "visible": false, "active": false,
+	"infoText": [
+		"Game-altering upgrades utilizing special achievement-based currency: Radiance"]
+	},
+
+    { "id": 170, "name": "settings", "visible": true, "active": true
+	}
 ]
