@@ -74,7 +74,8 @@
 
     { "id": 180, "name": "radiance", "visible": false, "active": false,
 	"infoText": [
-		"Game-altering upgrades utilizing special achievement-based currency: Radiance"]
+		"Game-altering upgrades utilizing special achievement-based currency: Radiance",
+		"This is the premium currency.  Purchased with money or earned via achievements."]
 	},
 
     { "id": 170, "name": "settings", "visible": true, "active": true
