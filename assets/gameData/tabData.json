@@ -5,25 +5,29 @@
 				"infoText": [
 					"Trainings - and upgrades specific to this realm's trainings.",
 					"Training realms can be evolved via the Forge for higher income",
-					"All Trainings have milestone tiers that give a multiplier bonus."]
+					"All Trainings have milestone tiers that give a multiplier bonus.",
+					"Trainings highlight when milestone is affordable, and color background per milestone completed"]
 			},
 			{ "id": 112, "name": "wisdom", "active": false, "initialUnlockedFeatureIDs": [611],
 				"infoText": [
 					"Trainings - and upgrades specific to this realm's trainings.",
 					"Training realms can be evolved via the Forge for higher income",
-					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases."]
+					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases.",
+					"Trainings highlight when milestone is affordable, and color background per milestone completed"]
 			},
 			{ "id": 113, "name": "energy", "active": false, "initialUnlockedFeatureIDs": [2001],
 				"infoText": [
 					"Trainings - and upgrades specific to this realm's trainings.",
 					"Training realms can be evolved via the Forge for higher income",
-					"All Trainings have milestone tiers that give a multiplier bonus."]
+					"All Trainings have milestone tiers that give a multiplier bonus.",
+					"Trainings highlight when milestone is affordable, and color background per milestone completed"]
 			},
 			{ "id": 114, "name": "divine", "active": false, "initialUnlockedFeatureIDs": [711],
 				"infoText": [
 					"Trainings - and upgrades specific to this realm's trainings.",
 					"Training realms can be evolved via the Forge for higher income",
-					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases."]
+					"All Trainings have milestone tiers that give a multiplier bonus.  When dealing with generators, milestones are unlocked via manual level purchases.",
+					"Trainings highlight when milestone is affordable, and color background per milestone completed"]
 			} 
 		] 
     },

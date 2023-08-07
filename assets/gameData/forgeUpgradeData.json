@@ -60,7 +60,7 @@
     { "id": 10102, "name": "wisdomTrain multiply","note": "note", "description": "wisdomTrain mult 25", "level": 0, "maxLevel": 1, "costType": "wisdom", "costBase": 1e15, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": [{"type": "production", "priority": null, "sourceCalcType": "add", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 25, "value": 25, "active": false}]
     },
-    { "id": 10103, "name": "Wisdom -> powerlevel boost1","note": "note", "description": "increase wisdom contribution to powerLevel by 2x", "level": 0, "maxLevel": 1, "costType": "wisdom", "costBase": 1e20, "costGrowthRate": 2, "prodType": "modifyPlayerValue", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "wisdomPowerLevelMultiplier", "specialVar2": 2, 
+    { "id": 10103, "name": "Wisdom -> powerlevel boost1","note": "note", "description": "increase wisdom contribution to powerLevel by 10x", "level": 0, "maxLevel": 1, "costType": "wisdom", "costBase": 1e20, "costGrowthRate": 2, "prodType": "modifyPlayerValue", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "wisdomPowerLevelMultiplier", "specialVar2": 10, 
     "mods": []
     },
     { "id": 10104, "name": "wisdomTrain cost-","note": "note", "description": "wisdomTrain cost/2", "level": 0, "maxLevel": 1, "costType": "wisdom", "costBase": 1e25, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
@@ -119,7 +119,7 @@
     { "id": 10202, "name": "energyTrain multiply","note": "note", "description": "energyTrain mult 25", "level": 0, "maxLevel": 1, "costType": "energy", "costBase": 1e15, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": [{"type": "production", "priority": null, "sourceCalcType": "add", "targetType": "energyTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 25, "value": 25, "active": false}]
     },
-    { "id": 10203, "name": "Energy -> powerlevel boost1","note": "note", "description": "increase energy contribution to powerLevel by 2x", "level": 0, "maxLevel": 1, "costType": "energy", "costBase": 1e20, "costGrowthRate": 2, "prodType": "modifyPlayerValue", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "energyPowerLevelMultiplier", "specialVar2": 2, 
+    { "id": 10203, "name": "Energy -> powerlevel boost1","note": "note", "description": "increase energy contribution to powerLevel by 10x", "level": 0, "maxLevel": 1, "costType": "energy", "costBase": 1e20, "costGrowthRate": 2, "prodType": "modifyPlayerValue", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "energyPowerLevelMultiplier", "specialVar2": 10, 
     "mods": []
     },
     { "id": 10204, "name": "energyTrain cost-","note": "note", "description": "energyTrain cost/2", "level": 0, "maxLevel": 1, "costType": "energy", "costBase": 1e25, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
