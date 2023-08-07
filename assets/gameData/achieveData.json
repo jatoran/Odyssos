@@ -1,694 +1,551 @@
 [
-    { "id": 6001, "name": "powerLevel 1e4", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e4, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ] 
+    {"id": 6001, "name": "powerLevel 1e4", "note": "", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000.0, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6002, "name": "powerLevel 1e7", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e7, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 100, "value": 10, "active": false } ] 
+    {"id": 6002, "name": "powerLevel 1e7", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000.0, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 100, "value": 10, "active": false}]
     },
-    { "id": 6003, "name": "powerLevel 1e10", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e10, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6003, "name": "powerLevel 1e10", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6004, "name": "powerLevel 1e13", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e13, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6004, "name": "powerLevel 1e13", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000000.0, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6005, "name": "powerLevel 1e16", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e16, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6005, "name": "powerLevel 1e16", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+16, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6006, "name": "powerLevel 1e19", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e19, "setID": 8001,
-        "mods": [ {  "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6006, "name": "powerLevel 1e19", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+19, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6007, "name": "powerLevel 1e22", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e22, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6007, "name": "powerLevel 1e22", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+22, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6008, "name": "powerLevel 1e25", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e25, "setID": 8001,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6008, "name": "powerLevel 1e25", "note": "note", "unlockCategory": "stat", "conditionType": "powerLevel", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+25, "setID": 8001,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-
-
-    { "id": 6020, "name": "wisdom 1e5", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e5, "setID": 8002,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.250000, "active": false } ]
+    {"id": 6020, "name": "wisdom 1e5", "note": "note", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100000.0, "setID": 8002,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6021, "name": "wisdom 1e10", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e10, "setID": 8002,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.250000, "active": false } ]
+    {"id": 6021, "name": "wisdom 1e10", "note": "note", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8002,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6022, "name": "wisdom 1e15", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e15, "setID": 8002,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false } ]
+    {"id": 6022, "name": "wisdom 1e15", "note": "note.", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000000000000000.0, "setID": 8002,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false}]
     },
-    { "id": 6023, "name": "wisdom 1e20", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e20, "setID": 8002,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000, "value": 100000, "active": false } ]
+    {"id": 6023, "name": "wisdom 1e20", "note": "note", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+20, "setID": 8002,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000, "value": 100000, "active": false}]
     },
-    { "id": 6024, "name": "wisdom 1e25", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e25, "setID": 8002,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000000, "value": 100000, "active": false } ]
+    {"id": 6024, "name": "wisdom 1e25", "note": "note", "unlockCategory": "stat", "conditionType": "wisdom", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+25, "setID": 8002,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000000, "value": 100000, "active": false}]
     },
-
-
-
-    { "id": 6030, "name": "force 1e5", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e5, "setID": 8003,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.250000, "active": false } ]
+    {"id": 6030, "name": "force 1e5", "note": "note", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100000.0, "setID": 8003,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6031, "name": "force 1e10", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e10, "setID": 8003,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false } ]
+    {"id": 6031, "name": "force 1e10", "note": "note", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8003,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false}]
     },
-    { "id": 6032, "name": "force 1e15", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e15, "setID": 8003,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false } ]
+    {"id": 6032, "name": "force 1e15", "note": "note", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000000000000000.0, "setID": 8003,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false}]
     },
-    { "id": 6033, "name": "force 1e20", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e20, "setID": 8003,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000000, "value": 100000, "active": false } ]
+    {"id": 6033, "name": "force 1e20", "note": "note", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+20, "setID": 8003,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000000, "value": 100000, "active": false}]
     },
-    { "id": 6034, "name": "force 1e25", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e25, "setID": 8003,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000000, "value": 100000, "active": false } ]
+    {"id": 6034, "name": "force 1e25", "note": "note", "unlockCategory": "stat", "conditionType": "force", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+25, "setID": 8003,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000000, "value": 100000, "active": false}]
     },
-
-
-
-    { "id": 6040, "name": "energy 1e5", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e5, "setID": 8004,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.250000, "active": false } ]
+    {"id": 6040, "name": "energy 1e5", "note": "note.", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100000.0, "setID": 8004,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6041, "name": "energy 1e10", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e10, "setID": 8004,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false } ]
+    {"id": 6041, "name": "energy 1e10", "note": "note", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8004,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false}]
     },
-    { "id": 6042, "name": "energy 1e15", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e15, "setID": 8004,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false } ]
+    {"id": 6042, "name": "energy 1e15", "note": "note", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000000000000000.0, "setID": 8004,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false}]
     },
-    { "id": 6043, "name": "energy 1e20", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e20, "setID": 8004,
-        "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000000, "value": 100000, "active": false } ]
+    {"id": 6043, "name": "energy 1e20", "note": "note", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+20, "setID": 8004,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000000, "value": 100000, "active": false}]
     },
-    { "id": 6044, "name": "energy 1e25", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e25, "setID": 8004,
-    "mods": [ { "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue":2000000000000, "value": 100000, "active": false } ]
+    {"id": 6044, "name": "energy 1e25", "note": "note", "unlockCategory": "stat", "conditionType": "energy", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+25, "setID": 8004,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "energyTrain", "targetID": null, "runningCalcType": "add", "baseValue": 2000000000000, "value": 100000, "active": false}]
     },
-
-
-
-
-    { "id": 6050, "name": "divine 1e5", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e5, "setID": 8005,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.250000, "active": false } ]
+    {"id": 6050, "name": "divine 1e5", "note": "note", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100000.0, "setID": 8005,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6051, "name": "divine 1e10", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e10, "setID": 8005,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false } ]
+    {"id": 6051, "name": "divine 1e10", "note": "note", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8005,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000, "value": 100000, "active": false}]
     },
-    { "id": 6052, "name": "divine 1e15", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue":1e15, "setID": 8005,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false } ]
+    {"id": 6052, "name": "divine 1e15", "note": "note", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000000000000000.0, "setID": 8005,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false}]
     },
-    { "id": 6053, "name": "divine 1e20", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null,  "conditionValue":1e20, "setID": 8005,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false } ]
+    {"id": 6053, "name": "divine 1e20", "note": "note", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+20, "setID": 8005,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false}]
     },
-    { "id": 6054, "name": "divine 1e25", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null,  "conditionValue":1e25, "setID": 8005,
-        "mods": [ {  "type": "prodBase", "priority": null,"sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false } ]
+    {"id": 6054, "name": "divine 1e25", "note": "note", "unlockCategory": "stat", "conditionType": "divine", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1e+25, "setID": 8005,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "divineTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1000000, "value": 100000, "active": false}]
     },
-
-
-
-
-    { "id": 6070, "name": "world1Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6071, "name": "world2Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ {  "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6072, "name": "world3Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6073, "name": "world4Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6074, "name": "world5Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6075, "name": "world6Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000006, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6076, "name": "world7Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000007, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6077, "name": "world8Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000008, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6078, "name": "world9Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000009, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6079, "name": "world10Achieve", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000010, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8006,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-
-
-
-
-
-
-
-    { "id": 6090, "name": "lifetimeCrystalEarnedAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e4, "setID": 8007,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6091, "name": "lifetimeCrystalEarnedAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e7, "setID": 8007,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6092, "name": "lifetimeCrystalEarnedAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e10, "setID": 8007,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6093, "name": "lifetimeCrystalEarnedAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e13, "setID": 8007,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-
-
-
-
-
-
-
-    { "id": 6100, "name": "lifetimeEssenceEarnedAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e4, "setID": 8008,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6101, "name": "lifetimeEssenceEarnedAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e7, "setID": 8008,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6102, "name": "lifetimeEssenceEarnedAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e10, "setID": 8008,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6103, "name": "lifetimeEssenceEarnedAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1e13, "setID": 8008,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-
-    
-
-
-
-
-    { "id": 6110, "name": "totalPlaytimeAchieve1", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 3.6e6, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6111, "name": "totalPlaytimeAchieve2", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1.44e7, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6112, "name": "totalPlaytimeAchieve3", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 2.88e7, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6113, "name": "totalPlaytimeAchieve4", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 8.64e7, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6114, "name": "totalPlaytimeAchieve5", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1.728e8, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6115, "name": "totalPlaytimeAchieve6", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 6.048e8, "setID": 8009,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-
-
-
-
-
-
-    { "id": 6120, "name": "lifetimeZoneCompletionsAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8010,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6121, "name": "lifetimeZoneCompletionsAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 10, "setID": 8010,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6122, "name": "lifetimeZoneCompletionsAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8010,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-    { "id": 6123, "name": "lifetimeZoneCompletionsAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8010,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
-    },
-
-
-
-
-
-    { "id": 6130, "name": "lifetimeRegionProgressionsAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8011,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6070, "name": "world1Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6131, "name": "lifetimeRegionProgressionsAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 10, "setID": 8011,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6071, "name": "world2Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6132, "name": "lifetimeRegionProgressionsAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8011,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6072, "name": "world3Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6133, "name": "lifetimeRegionProgressionsAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8011,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6073, "name": "world4Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    
-
-
-
-    { "id": 6140, "name": "lifetimeWorldProgressionsAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8012,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6074, "name": "world5Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6141, "name": "lifetimeWorldProgressionsAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 10, "setID": 8012,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6075, "name": "world6Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000006, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6142, "name": "lifetimeWorldProgressionsAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8012,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6076, "name": "world7Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000007, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6143, "name": "lifetimeWorldProgressionsAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8012,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6077, "name": "world8Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000008, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-    
-
-
-
-    { "id": 6150, "name": "lifetimeKillsAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 1, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5, "setID": 8013,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6078, "name": "world9Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000009, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6151, "name": "lifetimeKillsAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 100, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5, "setID": 8013,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6079, "name": "world10Achieve", "note": "note", "unlockCategory": "id", "conditionType": "isProgressed", "dependentID": 1000010, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8006,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6152, "name": "lifetimeKillsAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 1000, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5, "setID": 8013,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6090, "name": "lifetimeCrystalEarnedAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000.0, "setID": 8007,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6153, "name": "lifetimeKillsAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 10000, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5, "setID": 8013,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6091, "name": "lifetimeCrystalEarnedAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000.0, "setID": 8007,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-    { "id": 6160, "name": "maxTournamentRankAchieve1", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 90, "setID": 8014,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6092, "name": "lifetimeCrystalEarnedAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8007,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6161, "name": "maxTournamentRankAchieve2", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 60, "setID": 8014,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6093, "name": "lifetimeCrystalEarnedAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeCrystalEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000000.0, "setID": 8007,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6162, "name": "maxTournamentRankAchieve3", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 30, "setID": 8014,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6100, "name": "lifetimeEssenceEarnedAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000.0, "setID": 8008,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6163, "name": "maxTournamentRankAchieve4", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 10, "setID": 8014,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6101, "name": "lifetimeEssenceEarnedAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000.0, "setID": 8008,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6164, "name": "maxTournamentRankAchieve5", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8014,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6102, "name": "lifetimeEssenceEarnedAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000.0, "setID": 8008,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-    { "id": 6170, "name": "lifetimeFighterTiersDefeatedAchieve1", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8015,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6103, "name": "lifetimeEssenceEarnedAchieve4", "note": "note.", "unlockCategory": "stat", "conditionType": "lifetimeEssenceEarned", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10000000000000.0, "setID": 8008,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6171, "name": "lifetimeFighterTiersDefeatedAchieve2", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 10, "setID": 8015,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6110, "name": "totalPlaytimeAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 3600000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6172, "name": "lifetimeFighterTiersDefeatedAchieve3", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8015,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6111, "name": "totalPlaytimeAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 14400000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6173, "name": "lifetimeFighterTiersDefeatedAchieve4", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8015,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6112, "name": "totalPlaytimeAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 28800000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-
-
-
-    { "id": 6199, "name": "legendaryBossAchieve1", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9007, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6113, "name": "totalPlaytimeAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 86400000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6200, "name": "legendaryBossAchieve2", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9026, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6114, "name": "totalPlaytimeAchieve5", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 172800000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6201, "name": "legendaryBossAchieve3", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9047, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6115, "name": "totalPlaytimeAchieve6", "note": "note", "unlockCategory": "stat", "conditionType": "totalPlaytime", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 604800000.0, "setID": 8009,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6202, "name": "legendaryBossAchieve4", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9069, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6120, "name": "lifetimeZoneCompletionsAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8010,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6203, "name": "legendaryBossAchieve5", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9087, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6121, "name": "lifetimeZoneCompletionsAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10, "setID": 8010,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6204, "name": "legendaryBossAchieve6", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9107, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6122, "name": "lifetimeZoneCompletionsAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8010,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6205, "name": "legendaryBossAchieve7", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9127, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6123, "name": "lifetimeZoneCompletionsAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeZoneCompletions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8010,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6206, "name": "legendaryBossAchieve8", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9147, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6130, "name": "lifetimeRegionProgressionsAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8011,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6207, "name": "legendaryBossAchieve9", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9167, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6131, "name": "lifetimeRegionProgressionsAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10, "setID": 8011,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6208, "name": "legendaryBossAchieve10", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9187, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6132, "name": "lifetimeRegionProgressionsAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8011,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6209, "name": "legendaryBossAchieve11", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9207, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6133, "name": "lifetimeRegionProgressionsAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeRegionProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8011,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6210, "name": "legendaryBossAchieve12", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9227, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6140, "name": "lifetimeWorldProgressionsAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8012,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6211, "name": "legendaryBossAchieve13", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9247, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6141, "name": "lifetimeWorldProgressionsAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10, "setID": 8012,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6212, "name": "legendaryBossAchieve14", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9270, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6142, "name": "lifetimeWorldProgressionsAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8012,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6213, "name": "legendaryBossAchieve15", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9287, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6143, "name": "lifetimeWorldProgressionsAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeWorldProgressions", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8012,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6214, "name": "legendaryBossAchieve16",  "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9317, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6150, "name": "lifetimeKillsAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 1, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5, "setID": 8013,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6215, "name": "legendaryBossAchieve17", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9347, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6151, "name": "lifetimeKillsAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 100, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5, "setID": 8013,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6216, "name": "legendaryBossAchieve18", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9377, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6152, "name": "lifetimeKillsAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 1000, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5, "setID": 8013,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6217, "name": "legendaryBossAchieve19", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9407, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6153, "name": "lifetimeKillsAchieve4", "note": "note.", "unlockCategory": "stat", "conditionType": "lifetimeKills", "dependentID": null, "radianceReward": 10000, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5, "setID": 8013,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6218, "name": "legendaryBossAchieve20", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9437, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6160, "name": "maxTournamentRankAchieve1", "note": "note", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 90, "setID": 8014,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6219, "name": "legendaryBossAchieve21", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9467, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6161, "name": "maxTournamentRankAchieve2", "note": "note.", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 60, "setID": 8014,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6220, "name": "legendaryBossAchieve22", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9507, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": true, "setID": 8016,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6162, "name": "maxTournamentRankAchieve3", "note": "note", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 30, "setID": 8014,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-
-
-
-    
-
-
-
-    { "id": 6240, "name": "trainAchieve1", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8017,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6163, "name": "maxTournamentRankAchieve4", "note": "note.", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10, "setID": 8014,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6241, "name": "trainAchieve2", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8017,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6164, "name": "maxTournamentRankAchieve5", "note": "note", "unlockCategory": "statInverse", "conditionType": "maxTournamentRank", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8014,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6242, "name": "trainAchieve3", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8017,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6170, "name": "lifetimeFighterTiersDefeatedAchieve1", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8015,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6243, "name": "trainAchieve4", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8017,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6171, "name": "lifetimeFighterTiersDefeatedAchieve2", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 10, "setID": 8015,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6244, "name": "trainAchieve5", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8018,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6172, "name": "lifetimeFighterTiersDefeatedAchieve3", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8015,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6245, "name": "trainAchieve6", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8018,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6173, "name": "lifetimeFighterTiersDefeatedAchieve4", "note": "note", "unlockCategory": "stat", "conditionType": "lifetimeFighterTiersDefeated", "dependentID": null, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8015,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6246, "name": "trainAchieve7", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8018,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6199, "name": "legendaryBossAchieve1", "note": "note.", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9007, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6247, "name": "trainAchieve8", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8018,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6200, "name": "legendaryBossAchieve2", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9026, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6248, "name": "trainAchieve9", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8019,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6201, "name": "legendaryBossAchieve3", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9047, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6249, "name": "trainAchieve10", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8019,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6202, "name": "legendaryBossAchieve4", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9069, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6250, "name": "trainAchieve11", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8019,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6203, "name": "legendaryBossAchieve5", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9087, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6251, "name": "trainAchieve12", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8019,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6204, "name": "legendaryBossAchieve6", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9107, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6252, "name": "trainAchieve13", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8020,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6205, "name": "legendaryBossAchieve7", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9127, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6253, "name": "trainAchieve14", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8020,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6206, "name": "legendaryBossAchieve8", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9147, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6254, "name": "trainAchieve15", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8020,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6207, "name": "legendaryBossAchieve9", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9167, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6255, "name": "trainAchieve16", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8020,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6208, "name": "legendaryBossAchieve10", "note": "note.", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9187, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6256, "name": "trainAchieve17", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8021,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6209, "name": "legendaryBossAchieve11", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9207, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6257, "name": "trainAchieve18", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8021,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6210, "name": "legendaryBossAchieve12", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9227, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6258, "name": "trainAchieve19", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8021,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6211, "name": "legendaryBossAchieve13", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9247, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6259, "name": "trainAchieve20", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8021,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6212, "name": "legendaryBossAchieve14", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9270, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6260, "name": "trainAchieve21", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8022,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6213, "name": "legendaryBossAchieve15", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9287, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6261, "name": "trainAchieve22", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8022,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6214, "name": "legendaryBossAchieve16", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9317, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6262, "name": "trainAchieve23", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8022,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6215, "name": "legendaryBossAchieve17", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9347, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6263, "name": "trainAchieve24", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8022,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6216, "name": "legendaryBossAchieve18", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9377, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-
-
-
-
-
-    { "id": 6270, "name": "trainAchieve25", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8023,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6217, "name": "legendaryBossAchieve19", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9407, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6271, "name": "trainAchieve26", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8023,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6218, "name": "legendaryBossAchieve20", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9437, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6272, "name": "trainAchieve27", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8023,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6219, "name": "legendaryBossAchieve21", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9467, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6273, "name": "trainAchieve28", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8023,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6220, "name": "legendaryBossAchieve22", "note": "note", "unlockCategory": "id", "conditionType": "isDefeated", "dependentID": 9507, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": true, "setID": 8016,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-
-    { "id": 6274, "name": "trainAchieve29", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8024,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6240, "name": "trainAchieve1", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8017,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6275, "name": "trainAchieve30", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8024,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6241, "name": "trainAchieve2", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8017,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6276, "name": "trainAchieve31", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8024,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6242, "name": "trainAchieve3", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8017,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6277, "name": "trainAchieve32", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8024,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6243, "name": "trainAchieve4", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8017,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-
-    { "id": 6278, "name": "trainAchieve33", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8025,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6244, "name": "trainAchieve5", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8018,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6279, "name": "trainAchieve34", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8025,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6245, "name": "trainAchieve6", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8018,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6280, "name": "trainAchieve35", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8025,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6246, "name": "trainAchieve7", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8018,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6281, "name": "trainAchieve36", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8025,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6247, "name": "trainAchieve8", "note": "note.", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8018,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-
-    { "id": 6282, "name": "trainAchieve37", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8026,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6248, "name": "trainAchieve9", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8019,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6283, "name": "trainAchieve38", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8026,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6249, "name": "trainAchieve10", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8019,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6284, "name": "trainAchieve39", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8026,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6250, "name": "trainAchieve11", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8019,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6285, "name": "trainAchieve40", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8026,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6251, "name": "trainAchieve12", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8019,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-
-    { "id": 6286, "name": "trainAchieve41", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8027,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6252, "name": "trainAchieve13", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8020,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6287, "name": "trainAchieve42", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8027,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6253, "name": "trainAchieve14", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8020,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6288, "name": "trainAchieve43", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8027,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false } ]
+    {"id": 6254, "name": "trainAchieve15", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8020,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6289, "name": "trainAchieve44", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8027,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false } ]
+    {"id": 6255, "name": "trainAchieve16", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8020,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-
-
-
-
-
-
-
-
-
-
-    { "id": 6300, "name": "trainAchieve45", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8028,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6256, "name": "trainAchieve17", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8021,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6301, "name": "trainAchieve46", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8028,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6257, "name": "trainAchieve18", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8021,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6302, "name": "trainAchieve47", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8028,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6258, "name": "trainAchieve19", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8021,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6303, "name": "trainAchieve48", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8028,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6259, "name": "trainAchieve20", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8021,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6304, "name": "trainAchieve49", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8029,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6260, "name": "trainAchieve21", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8022,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6305, "name": "trainAchieve50", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8029,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6261, "name": "trainAchieve22", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8022,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6306, "name": "trainAchieve51", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8029,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6262, "name": "trainAchieve23", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8022,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6307, "name": "trainAchieve52", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8029,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6263, "name": "trainAchieve24", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 1005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8022,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6308, "name": "trainAchieve53", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8030,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6270, "name": "trainAchieve25", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8023,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6309, "name": "trainAchieve54", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8030,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6271, "name": "trainAchieve26", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8023,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6310, "name": "trainAchieve55", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8030,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6272, "name": "trainAchieve27", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8023,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6311, "name": "trainAchieve56", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8030,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6273, "name": "trainAchieve28", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2001, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8023,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6312, "name": "trainAchieve57", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8031,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6274, "name": "trainAchieve29", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8024,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6313, "name": "trainAchieve58", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8031,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6275, "name": "trainAchieve30", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8024,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6314, "name": "trainAchieve59", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8031,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6276, "name": "trainAchieve31", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8024,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6315, "name": "trainAchieve60", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8031,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6277, "name": "trainAchieve32", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2002, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8024,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6316, "name": "trainAchieve61", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8032,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6278, "name": "trainAchieve33", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8025,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6317, "name": "trainAchieve62", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8032,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6279, "name": "trainAchieve34", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8025,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6318, "name": "trainAchieve63", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8032,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6280, "name": "trainAchieve35", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8025,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6319, "name": "trainAchieve64", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8032,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6281, "name": "trainAchieve36", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2003, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8025,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-
-
-
-
-
-
-
-
-    { "id": 6330, "name": "trainAchieve65", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8033,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6282, "name": "trainAchieve37", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8026,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6331, "name": "trainAchieve66", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8033,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6283, "name": "trainAchieve38", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8026,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6332, "name": "trainAchieve67", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8033,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6284, "name": "trainAchieve39", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8026,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6333, "name": "trainAchieve68", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8033,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6285, "name": "trainAchieve40", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2004, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8026,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6334, "name": "trainAchieve69", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8034,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6286, "name": "trainAchieve41", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8027,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6335, "name": "trainAchieve70", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8034,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6287, "name": "trainAchieve42", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8027,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6336, "name": "trainAchieve71", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8034,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6288, "name": "trainAchieve43", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8027,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 400, "value": 10, "active": false}]
     },
-    { "id": 6337, "name": "trainAchieve72", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8034,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6289, "name": "trainAchieve44", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 2005, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8027,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 800, "value": 10, "active": false}]
     },
-
-    
-    { "id": 6338, "name": "trainAchieve73", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8035,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6300, "name": "trainAchieve45", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8028,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6339, "name": "trainAchieve74", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8035,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6301, "name": "trainAchieve46", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8028,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6340, "name": "trainAchieve75", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8035,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6302, "name": "trainAchieve47", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8028,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6341, "name": "trainAchieve76", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8035,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6303, "name": "trainAchieve48", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 611, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8028,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-    
-    { "id": 6342, "name": "trainAchieve77", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8036,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6304, "name": "trainAchieve49", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8029,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6343, "name": "trainAchieve78", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8036,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6305, "name": "trainAchieve50", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8029,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6344, "name": "trainAchieve79", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8036,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6306, "name": "trainAchieve51", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8029,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6345, "name": "trainAchieve80", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8036,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6307, "name": "trainAchieve52", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 612, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8029,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-
-    
-    { "id": 6346, "name": "trainAchieve81", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1, "setID": 8037,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6308, "name": "trainAchieve53", "note": "note.", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8030,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6347, "name": "trainAchieve82", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 100, "setID": 8037,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6309, "name": "trainAchieve54", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8030,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6348, "name": "trainAchieve83", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 1000, "setID": 8037,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6310, "name": "trainAchieve55", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8030,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 6349, "name": "trainAchieve84", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue":null, "conditionValue": 5000, "setID": 8037,
-        "mods": [ { "type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false } ]
+    {"id": 6311, "name": "trainAchieve56", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 613, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8030,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6312, "name": "trainAchieve57", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8031,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6313, "name": "trainAchieve58", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8031,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6314, "name": "trainAchieve59", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8031,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6315, "name": "trainAchieve60", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 614, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8031,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6316, "name": "trainAchieve61", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8032,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6317, "name": "trainAchieve62", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8032,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6318, "name": "trainAchieve63", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8032,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6319, "name": "trainAchieve64", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 615, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8032,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6330, "name": "trainAchieve65", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8033,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6331, "name": "trainAchieve66", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8033,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6332, "name": "trainAchieve67", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8033,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6333, "name": "trainAchieve68", "note": "note.", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 711, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8033,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6334, "name": "trainAchieve69", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8034,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6335, "name": "trainAchieve70", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8034,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6336, "name": "trainAchieve71", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8034,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6337, "name": "trainAchieve72", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 712, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8034,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6338, "name": "trainAchieve73", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8035,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6339, "name": "trainAchieve74", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8035,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6340, "name": "trainAchieve75", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8035,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6341, "name": "trainAchieve76", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 713, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8035,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6342, "name": "trainAchieve77", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8036,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6343, "name": "trainAchieve78", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8036,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6344, "name": "trainAchieve79", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8036,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6345, "name": "trainAchieve80", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 714, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8036,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6346, "name": "trainAchieve81", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1, "setID": 8037,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6347, "name": "trainAchieve82", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 100, "setID": 8037,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6348, "name": "trainAchieve83", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 1000, "setID": 8037,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
+    },
+    {"id": 6349, "name": "trainAchieve84", "note": "note", "unlockCategory": "id", "conditionType": "manualLevel", "dependentID": 715, "radianceReward": 10, "triggerType": "setActive", "triggerValue": null, "conditionValue": 5000, "setID": 8037,
+        "mods": [{"type": "prodBase", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "add", "baseValue": 1.25, "value": 1.25, "active": false}]
     }
-
 ]

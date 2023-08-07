@@ -1,170 +1,170 @@
 [
-    { "id": 40001, "name": "Skill 1", "description": "", "color": "var(--color-1)", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": true,
+    { "id": 40001, "name": "Skill 1","note": "note", "description": "", "color": "var(--color-1)", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": true,
         "connections": { "north":40003 , "east": 40002, "west": 40004, "south": 40006 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "forceTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 8, "value": 2, "active": false }] 
     },
-    { "id": 40002, "name": "Skill 2", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40002, "name": "Skill 2","note": "note", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "east": 40011 },
         "mods": [
             { "type": "production", "priority": null,  "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 3, "value": 3, "active": false }] 
     },
-    { "id": 40003, "name": "Skill 3", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40003, "name": "Skill 3","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "north": 40005 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 4, "value": 4, "active": false }] 
     },
-    { "id": 40004, "name": "Skill 4", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40004, "name": "Skill 4","note": "note", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {  "west": 40016 },
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "artifacts", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40005, "name": "Skill 5", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40005, "name": "Skill 5","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 6, "value": 6, "active": false }] 
     },
-    { "id": 40006, "name": "Skill 6", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40006, "name": "Skill 6","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "south": 40008 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 7, "value": 7, "active": false }] 
     },
-    { "id": 40007, "name": "Skill 7", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40007, "name": "Skill 7","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "north": 40020 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "forceTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 8, "value": 8, "active": false }] 
     },
-    { "id": 40008, "name": "Skill 8", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40008, "name": "Skill 8","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "south": 40019 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 9, "value": 9, "active": false }] 
     },
-    { "id": 40009, "name": "Skill 9", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40009, "name": "Skill 9","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west": 40026, "south":40031 },
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "div", "baseValue": 10, "value": 10, "active": false }] 
     },
-    { "id": 40010, "name": "Skill 10", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40010, "name": "Skill 10","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "south": 40009 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "mult", "baseValue": 11, "value": 11, "active": false }] 
     },
-    { "id": 40011, "name": "Skill 11", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40011, "name": "Skill 11","note": "note", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "north": 40007, "east": 40012, "south": 40014 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 12, "value": 12, "active": false }] 
     },
-    { "id": 40012, "name": "Skill 12", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40012, "name": "Skill 12","note": "note", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "east":40034},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 13, "value": 13, "active": false }] 
     },
-    { "id": 40013, "name": "Skill 13", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40013, "name": "Skill 13","note": "note", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west": 40029},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "zones", "targetID": null, "runningCalcType": "mult", "baseValue": 14, "value": 14, "active": false }] 
     },
-    { "id": 40014, "name": "Skill 14", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40014, "name": "Skill 14","note": "note", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "south": 40015 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 15, "value": 15, "active": false }] 
     },
-    { "id": 40015, "name": "Skill 15", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40015, "name": "Skill 15","note": "note", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {"south":40023},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 16, "value": 16, "active": false }] 
     },
-    { "id": 40016, "name": "Skill 16", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40016, "name": "Skill 16","note": "note", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "north": 40017, "west":40032,"south": 40010 },
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "artifacts", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40017, "name": "Skill 17", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40017, "name": "Skill 17","note": "note", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "north": 40018  },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "zones", "targetID": null, "runningCalcType": "mult", "baseValue": 31, "value": 31, "active": false }] 
     },
-    { "id": 40018, "name": "Skill 18", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40018, "name": "Skill 18","note": "note", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {"west": 40013 },
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "zones", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40019, "name": "Skill 19", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40019, "name": "Skill 19","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40020, "name": "Skill 20", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40020, "name": "Skill 20","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "east": 40021 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "forceTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40021, "name": "Skill 21", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40021, "name": "Skill 21","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "east": 40022 },
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "forceTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40022, "name": "Skill 22", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40022, "name": "Skill 22","note": "note", "description": "", "color": "var(--color-1", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "forceTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40023, "name": "Skill 23", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40023, "name": "Skill 23","note": "note", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {"east":40024},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40024, "name": "Skill 24", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40024, "name": "Skill 24","note": "note", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {"east":40025},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40025, "name": "Skill 25", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40025, "name": "Skill 25","note": "note", "description": "", "color": "var(--color-2", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "wisdomTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40026, "name": "Skill 26", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40026, "name": "Skill 26","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west": 40027},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "div", "baseValue": 10, "value": 10, "active": false }] 
     },
-    { "id": 40027, "name": "Skill 27", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40027, "name": "Skill 27","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west": 40028},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "div", "baseValue": 10, "value": 10, "active": false }] 
     },
-    { "id": 40028, "name": "Skill 28", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40028, "name": "Skill 28","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "div", "baseValue": 10, "value": 10, "active": false }] 
     },
-    { "id": 40029, "name": "Skill 29", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40029, "name": "Skill 29","note": "note", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west": 40030},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "zones", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40030, "name": "Skill 30", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40030, "name": "Skill 30","note": "note", "description": "", "color": "var(--color-5", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "zones", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40031, "name": "Skill 31", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40031, "name": "Skill 31","note": "note", "description": "", "color": "var(--color-7", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "fighters", "targetID": null, "runningCalcType": "div", "baseValue": 10, "value": 10, "active": false }] 
     },
-    { "id": 40032, "name": "Skill 32", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40032, "name": "Skill 32","note": "note", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": { "west":40033},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "artifacts", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40033, "name": "Skill 33", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40033, "name": "Skill 33","note": "note", "description": "", "color": "var(--color-9", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "cost", "priority": null, "sourceCalcType": "mult", "targetType": "artifacts", "targetID": null, "runningCalcType": "div", "baseValue": 32, "value": 32, "active": false }]
     },
-    { "id": 40034, "name": "Skill 34", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
+    { "id": 40034, "name": "Skill 34","note": "note", "description": "", "color": "var(--color-8", "level": 0, "maxLevel": 1, "costType": "skillpoint", "costBase": 1, "costGrowthRate": 1.2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false,
         "connections": {},
         "mods": [
             { "type": "production", "priority": null, "sourceCalcType": "mult", "targetType": "allTrain", "targetID": null, "runningCalcType": "mult", "baseValue": 32, "value": 32, "active": false }]
