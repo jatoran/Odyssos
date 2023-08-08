@@ -228,7 +228,7 @@
     },
     { "id": 10403, "name": "Auto Conquest Progression","note": "note", "description": "autoConquestProgression enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 7.2e4, "costGrowthRate": 2, "prodType": "autoConquestProgression", "prodBase": null, "prodGrowthRate": null, "active": false
     },
-    { "id": 10404, "name": "Auto Tournament","note": "note", "description": "autoTournamentProgression enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 2.16e6, "costGrowthRate": 2, "prodType": "autoTournamentProgression", "prodBase": null, "prodGrowthRate": null, "active": false, 
+    { "id": 10404, "name": "Auto Tournament","note": "note", "description": "autoTournamentProgression enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 2.16e5, "costGrowthRate": 2, "prodType": "autoTournamentProgression", "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": []
     },
     { "id": 10405, "name": "Auto Conquest Repeat","note": "note", "description": "autoConquestRepeat enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 6.48e6, "costGrowthRate": 2, "prodType": "autoConquestRepeat", "prodBase": null, "prodGrowthRate": null, "active": false, 
@@ -240,34 +240,37 @@
     { "id": 10407, "name": "Auto WisdomUpgrades","note": "note", "description": "autoWisdomUpgrade enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 6e7, "costGrowthRate": 2, "prodType": "autoWisdomUpgrade", "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": []
     },
-    { "id": 10408, "name": "Auto EnergyTrain","note": "note", "description": "autoEnergyTrain enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1.8e8, "costGrowthRate": 2, "prodType": "autoEnergyTrain", "prodBase": null, "prodGrowthRate": null, "active": false, 
+    { "id": 10410, "name": "Auto Artifacts","note": "note", "description": "autoArtifact enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 72e7, "costGrowthRate": 2, "prodType": "autoArtifact", "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": []
     },
-    { "id": 10409, "name": "Auto EnergyUpgrades","note": "note", "description": "autoEnergyUpgrade enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 3.6e8, "costGrowthRate": 2, "prodType": "autoEnergyUpgrade", "prodBase": null, "prodGrowthRate": null, "active": false, 
+    { "id": 10411, "name": "Unspent Wisdom = Force income","note": "note", "description": "increase force production by 1.1* current unspent wisdom", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 82e8, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentWisdomToForce", "specialVar2": 1.1, 
         "mods": []
     },
-    { "id": 10410, "name": "Auto Artifacts","note": "note", "description": "autoArtifact enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 3e6, "costGrowthRate": 2, "prodType": "autoArtifact", "prodBase": null, "prodGrowthRate": null, "active": false, 
-        "mods": []
-    },
-    { "id": 10411, "name": "Unspent Wisdom = Force income","note": "note", "description": "increase force production by 1.1* current unspent wisdom", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e12, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentWisdomToForce", "specialVar2": 1.1, 
-        "mods": []
-    },
-    { "id": 10412, "name": "Unspent Energy = Wisdom income","note": "note", "description": "increase wisdom production by 1.1* current unspent energy", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e13, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentEnergyToWisdom", "specialVar2": 1.1, 
-        "mods": []
-    },
-    { "id": 10413, "name": "Unspent Divine = Energy income","note": "note", "description": "increase energy production by 1.1* current unspent divine", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e11, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentDivineToEnergy", "specialVar2": 1.1, 
-        "mods": []
-    },
-    { "id": 10414, "name": "All training production + 25%","note": "note", "description": "increase all train production by 25%", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e12, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
+    { "id": 10414, "name": "All training production + 25%","note": "note", "description": "increase all train production by 25%", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 2e10, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": [{"type": "production", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "addPercent", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 10415, "name": "All training cost - 25%","note": "note", "description": "decrease all train cost by 25%", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e13, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
+    { "id": 10415, "name": "All training cost - 25%","note": "note", "description": "decrease all train cost by 25%", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 3e11, "costGrowthRate": 2, "prodType": null, "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": [{"type": "cost", "priority": null, "sourceCalcType": "add", "targetType": "allTrain", "targetID": null, "runningCalcType": "subPercent", "baseValue": 1.25, "value": 1.25, "active": false}]
     },
-    { "id": 10416, "name": "Auto DivineTrain","note": "note", "description": "autoDivineTrain enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e30, "costGrowthRate": 2, "prodType": "autoDivineTrain", "prodBase": null, "prodGrowthRate": null, "active": false, 
+
+    { "id": 10408, "name": "Auto EnergyTrain","note": "note", "description": "autoEnergyTrain enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 62e19, "costGrowthRate": 2, "prodType": "autoEnergyTrain", "prodBase": null, "prodGrowthRate": null, "active": false, 
+    "mods": []
+    },
+    { "id": 10409, "name": "Auto EnergyUpgrades","note": "note", "description": "autoEnergyUpgrade enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 3.6e20, "costGrowthRate": 2, "prodType": "autoEnergyUpgrade", "prodBase": null, "prodGrowthRate": null, "active": false, 
         "mods": []
     },
-    { "id": 10417, "name": "Auto DivineUpgrades","note": "note", "description": "autoDivineUpgrade enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e35, "costGrowthRate": 2, "prodType": "autoDivineUpgrade", "prodBase": null, "prodGrowthRate": null, "active": false, 
+    
+    { "id": 10412, "name": "Unspent Energy = Wisdom income","note": "note", "description": "increase wisdom production by 1.1* current unspent energy", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e23, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentEnergyToWisdom", "specialVar2": 1.1, 
+        "mods": []
+    },
+    { "id": 10416, "name": "Auto DivineTrain","note": "note", "description": "autoDivineTrain enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e50, "costGrowthRate": 2, "prodType": "autoDivineTrain", "prodBase": null, "prodGrowthRate": null, "active": false, 
+        "mods": []
+    },
+    { "id": 10417, "name": "Auto DivineUpgrades","note": "note", "description": "autoDivineUpgrade enable", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e55, "costGrowthRate": 2, "prodType": "autoDivineUpgrade", "prodBase": null, "prodGrowthRate": null, "active": false, 
+        "mods": []
+    },
+    
+    { "id": 10413, "name": "Unspent Divine = Energy income","note": "note", "description": "increase energy production by 1.1* current unspent divine", "level": 0, "maxLevel": 1, "costType": "crystal", "costBase": 1e60, "costGrowthRate": 2, "prodType": "unspentCurrency", "prodBase": null, "prodGrowthRate": null, "active": false, "specialVar1": "unspentDivineToEnergy", "specialVar2": 1.1, 
         "mods": []
     }
 ]
