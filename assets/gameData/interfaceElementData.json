@@ -54,8 +54,5 @@
 		{ "id": "settings", "variableName": "settingsTabContent", "parent": "main-window", "tag": "div", "className": "content-tab" },
 			{ "id": "settings-tab-container", "variableName": "settingsTabContainer", "parent": "settings", "tag": "div" },
 				{ "id": "settings-col1", "variableName": "settingsCol1", "parent": "settings-tab-container", "tag": "div", "className": "content-tab-col" },
-				{ "id": "settings-col2", "variableName": "settingsCol2", "parent": "settings-tab-container", "tag": "div", "className": "content-tab-col" },
-		
-					{ "id": "save", "variableName": "saveButton", "parent": "settings-col1", "tag": "button" },
-					{ "id": "load", "variableName": "loadButton", "parent": "settings-col1", "tag": "button" }
+				{ "id": "settings-col2", "variableName": "settingsCol2", "parent": "settings-tab-container", "tag": "div", "className": "content-tab-col" }
 ]
