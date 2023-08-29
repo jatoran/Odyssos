@@ -36,9 +36,9 @@
 		"infoText": ["Powerful upgrades, evolution unlocks, and automations."]
 	},
 
-    { "id": 130, "name": "exploration", "active": false, 
+    { "id": 130, "name": "exploration", "active": false, "initialUnlockedFeatureIDs": [131,1010001,90001],
 		"subTabs": [
-			{ "id": 131, "name": "odyssey",  "active": true, "initialUnlockedFeatureIDs": [1010001],
+			{ "id": 131, "name": "odyssey",  "active": true,
 				"infoText": [
 					"Worlds > Regions > Zones.",
 					"Zones have a one time training resource cost.",

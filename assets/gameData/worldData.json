@@ -2,12 +2,15 @@
     { "id": 1000001, "name": "Peninsula", "note": "note", "active": true },
     { "id": 1000002, "name": "Continent", "note": "note" },
     { "id": 1000003, "name": "Planet", "note": "note" },
-    { "id": 1000004, "name": "Spiral Arm", "note": "note" },
-    { "id": 1000005, "name": "Galaxy", "note": "note" },
-    { "id": 1000006, "name": "Galaxy Group", "note": "note" },
-    { "id": 1000007, "name": "Galaxy Cluster", "note": "note" },
-    { "id": 1000008, "name": "Supercluster", "note": "note" },
-    { "id": 1000009, "name": "Cosmic Filament", "note": "note" },
-    { "id": 1000010, "name": "Universe", "note": "note" },
-    { "id": 1000011, "name": "Beyond", "note": "note" }
+    { "id": 1000004, "name": "Solar System", "note": "note" },
+    { "id": 1000005, "name": "Local Bubble", "note": "note" },
+    { "id": 1000006, "name": "Spiral Arm", "note": "note" },
+    { "id": 1000007, "name": "Galaxy", "note": "note" },
+    { "id": 1000008, "name": "Local Galactic Group", "note": "note" },
+    { "id": 1000009, "name": "Local Cluster", "note": "note" },
+    { "id": 1000010, "name": "Supercluster", "note": "note" },
+    { "id": 1000011, "name": "Cosmic Filament", "note": "note" },
+    { "id": 1000012, "name": "Cosmic Void", "note": "note" },
+    { "id": 1000013, "name": "Observable Universe", "note": "note" },
+    { "id": 1000014, "name": "Beyond", "note": "note" }
 ]
